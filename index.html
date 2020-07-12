@@ -317,7 +317,10 @@
                 </div>
                 <div class="md-modal-right">
                     <div class="md-modal-right-top" id="modal-right-top">
-                        <p>C</p>
+                        <ul>
+                            <li id="li-date"></li>
+                            <li>Link: <a id="li-link" href="" target="_blank"></a></li>
+                        </ul>
                     </div>
                     <div class="md-modal-right-bottom" id="modal-right-bottom">
                         <p>B</p>
@@ -335,61 +338,73 @@
     const modal_name = document.getElementById("modal-name");
     const modal_left = document.getElementById("modal-left");
     const modal_right_top = document.getElementById("modal-right-top");
+    const date = document.getElementById("li-date");
+    const link = document.getElementById("li-link");
     const modal_right_bottom = document.getElementById("modal-right-bottom");
 
     const modal_content = [
         [
             "Hardware graphics intern (Imgtec)",
             "general stuff",
-            "future work?/links",
+            "July 2020 - Present",
+            "N/A",
             "picture"
         ],
         [
             "COVID-19 Visualistion platform",
             "general stuff",
+            "April 2020 - June 2020",
             "future work?/links",
             "picture"
         ],
         [
             "Undergraduate Teaching Assistant",
             "general stuff",
+            "October 2019 - March 2020",
             "future work?/links",
             "picture"
         ],
         [
             "Functional programming language",
             "general stuff",
+            "February 2020 - March 2020",
             "future work?/links",
             "picture"
         ],
         [
             "Self monitoring and watering plant-pot",
             "general stuff",
-            "future work?/links",
+            "January 2020 - February 2020",
+            "Github",
+            "https://github.com/tobhil98/PlantCareSystem-IoTDevice",
             "picture"
         ]
         ,
         [
             "MIPS CPU Simulator (C++)",
             "general stuff",
+            "October 2018 - November 2018",
             "future work?/links",
             "picture"
         ],
         [
             "C89 to MIPS compiler (C++)",
             "general stuff",
+            "February 2019 - March 2019",
             "future work?/links",
             "picture"
         ],
         [
             "Real time face detection on an FPGA",
             "general stuff",
+            "March 2018 - May 2018",
             "future work?/links",
             "picture"
         ],
         [
             "Using the potato as a source of energy",
             "general stuff",
+            "2016",
             "future work?/links",
             "picture"
         ],
@@ -404,8 +419,10 @@
         name.onclick = function() {
             modal_name.innerHTML = modal_content[i][0] || "";
             modal_left.innerHTML = modal_content[i][1] || "";
-            modal_right_top.innerHTML = modal_content[i][2] || "";
-            modal_right_bottom.innerHTML = modal_content[i][3] || "";
+            date.innerHTML = "Date: " + modal_content[i][2];
+            link.innerHTML = modal_content[i][3];
+            link.href = modal_content[i][4]
+            modal_right_bottom.innerHTML = modal_content[i][5] || "";
             modal.style.display = "block";
         }
     });

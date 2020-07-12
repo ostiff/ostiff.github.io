@@ -2,7 +2,7 @@
     height: 100%;
     margin: 0;
     overflow: auto;
-    font-family: Arial;
+    font-family: 'Roboto', sans-serif;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.15fr 1.85fr;
@@ -14,12 +14,15 @@
     grid-area: md-modal-heading;
     padding: 16px;
     background-color: #0dd1ff;
-    color: black;
+    color: #3f485d;
+    height: 100%;
+
 }
 
 .md-modal-heading h2{
     margin: 0;
     height: 100%;
+    font-weight: bolder;
 }
 
 
@@ -99,8 +102,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 80%;
-    width: 80%;
+    height: 60%;
+    width: 60%;
 }
 
 /* The Close Button */
