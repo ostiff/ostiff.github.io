@@ -39,7 +39,7 @@
 .md-modal-right {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 0.5fr 1.5fr;
     gap: 0 0;
     grid-template-areas: "md-modal-right-top" "md-modal-right-bottom";
     grid-area: md-modal-right;
@@ -47,8 +47,9 @@
 
 .md-modal-right-top {
     grid-area: md-modal-right-top;
-    background-color: #4eace3;
+    background-color: rgba(78,162,227,0.5);
     padding: 15px;
+    border: 20px solid white;
     /*border: 16px solid #0dd1ff;*/
     /*border-bottom: 8px solid #0dd1ff;*/
     /*border-right: 8px solid #0dd1ff;*/
