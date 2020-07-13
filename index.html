@@ -115,8 +115,8 @@
         <div class="mbr-row">
             <div class="item gallery-image mbr-col-md-6 mbr-col-sm-12 mbr-col-lg-4">
                 <div id="modal-0" class="item-wrapper">
-                    <amp-img src="assets/images/mbr-1-1920x1280.jpg" layout="responsive" width="348" height="232" alt="image" class="placeholder-loader lb-image">
-                        <div placeholder="" class="placeholder">
+                    <amp-img src="assets/images/2020-logo-stacked-2.webp" layout="responsive" width="348.689407540395" height="234" alt="image" class="placeholder-loader lb-image i-amphtml-element i-amphtml-layout-responsive i-amphtml-layout-size-defined i-amphtml-layout" i-amphtml-layout="responsive"><i-amphtml-sizer slot="i-amphtml-svc" style="padding-top: 67.1084%;"></i-amphtml-sizer>
+                        <div placeholder="" class="placeholder amp-hidden">
                             <div class="mobirise-spinner">
                                 <em></em>
                                 <em></em>
@@ -124,22 +124,24 @@
                             </div></div>
 
                         <p class="item-sign mbr-fonts-style mbr-py-1 display-7">Hardware graphics intern (Imgtec)</p>
+
+                        <img decoding="async" alt="image" src="assets/images/2020-logo-stacked-2.webp" class="i-amphtml-fill-content i-amphtml-replaced-content"></amp-img>
+                </div>
+            </div>
+            <div class="item gallery-image mbr-col-md-6 mbr-col-sm-12 mbr-col-lg-4">
+                <div id="modal-1" class="item-wrapper">
+                    <amp-img src="assets/images/detail-view-2.png" layout="responsive" width="412.4177869700103" height="232" alt="image" class="placeholder-loader lb-image">
+                        <div placeholder="" class="placeholder">
+                            <div class="mobirise-spinner">
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                            </div></div>
+
+                        <p class="item-sign mbr-fonts-style mbr-py-1 display-7">COVID-19 Visualistion platform</p>
                     </amp-img>
                 </div>
-            </div><div class="item gallery-image mbr-col-md-6 mbr-col-sm-12 mbr-col-lg-4">
-            <div id="modal-1" class="item-wrapper">
-                <amp-img src="assets/images/detail-view-2.png" layout="responsive" width="412.4177869700103" height="232" alt="image" class="placeholder-loader lb-image">
-                    <div placeholder="" class="placeholder">
-                        <div class="mobirise-spinner">
-                            <em></em>
-                            <em></em>
-                            <em></em>
-                        </div></div>
-
-                    <p class="item-sign mbr-fonts-style mbr-py-1 display-7">COVID-19 Visualistion platform</p>
-                </amp-img>
             </div>
-        </div>
             <div class="item gallery-image mbr-col-md-6 mbr-col-sm-12 mbr-col-lg-4">
                 <div id="modal-2" class="item-wrapper">
                     <amp-img src="assets/images/02.jpg" layout="responsive" width="348" height="232" alt="image" class="placeholder-loader lb-image">
@@ -353,7 +355,9 @@
                 </h2>
             </div>
             <div class="md-modal-body">
-                <div class="md-modal-left" id="modal-left"></div>
+                <div class="md-modal-left">
+                    <div id="modal-left"></div>
+                </div>
                 <div class="md-modal-right">
                     <div class="md-modal-right-top" id="modal-right-top">
                         <ul>
@@ -361,140 +365,16 @@
                             <li>Link: <a id="li-link" href="" target="_blank"></a></li>
                         </ul>
                     </div>
-                    <div class="md-modal-right-bottom" id="modal-right-bottom"></div>
+                    <div class="md-modal-right-bottom">
+                        <div  id="modal-right-bottom"></div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-<script>
-    const modal = document.getElementById("myModal");
-    const navbar = document.getElementsByClassName("navbar")[0];
-    const span = document.getElementsByClassName("close")[0];
-    const modal_name = document.getElementById("modal-name");
-    const modal_left = document.getElementById("modal-left");
-    const modal_right_top = document.getElementById("modal-right-top");
-    const date = document.getElementById("li-date");
-    const link = document.getElementById("li-link");
-    const modal_right_bottom = document.getElementById("modal-right-bottom");
-
-    const modal_content = [
-        [
-            "Hardware graphics intern (Imgtec)",
-            "general stuff",
-            "July 2020 - Present",
-            "N/A",
-            "",
-            "picture"
-        ],
-        [
-            "COVID-19 Visualistion platform",
-            "general stuff",
-            "April 2020 - June 2020",
-            "Documentation",
-            "https://protondx-documentation.herokuapp.com/",
-            "picture"
-        ],
-        [
-            "Undergraduate Teaching Assistant",
-            "<p class=\"mbr-fonts-style align-center display-7 mbr-pt-4\"> " +
-            "I spent one year as a teaching assistant for the 'Programming for Engineers' module in the Electrical and " +
-            "Electronic Engineering department. The module focuses on procedural and object-oriented programming in C++." +
-            " It helps students understand key programming concepts as well as how to use the command line and virtual" +
-            "machines." +
-            "</p>" +
-            "<p class=\"mbr-fonts-style align-center display-7 mbr-pt-4\">" +
-            "It allowed me to....." +
-            "</p>",
-            "October 2019 - March 2020",
-            "N/A",
-            "",
-            "picture"
-        ],
-        [
-            "Functional programming language",
-            "general stuff",
-            "February 2020 - March 2020",
-            "N/A",
-            "",
-            "picture"
-        ],
-        [
-            "Self monitoring and watering plant-pot",
-            "general stuff",
-            "January 2020 - February 2020",
-            "Github - contains link to marketing website",
-            "https://github.com/tobhil98/PlantCareSystem-IoTDevice",
-            "picture"
-        ]
-        ,
-        [
-            "MIPS CPU Simulator (C++)",
-            "general stuff",
-            "October 2018 - November 2018",
-            "N/A",
-            "",
-            "picture"
-        ],
-        [
-            "C89 to MIPS compiler (C++)",
-            "general stuff",
-            "February 2019 - March 2019",
-            "N/A",
-            "",
-            "picture"
-        ],
-        [
-            "Real time face detection on an FPGA",
-            "general stuff",
-            "March 2018 - May 2018",
-            "N/A",
-            "",
-            "picture"
-        ],
-        [
-            "Using the potato as a source of energy",
-            "general stuff",
-            "2016",
-            "Website (French)",
-            "https://2016tpe.wixsite.com/tpe1",
-            "picture"
-        ],
-    ]
-
-    let modal_arr = [];
-    for (let i = 0; i < 9; i++) {
-        modal_arr.push(document.getElementById("modal-" + String(i)));
-    }
-
-    modal_arr.forEach(function (name, i) {
-        name.onclick = function() {
-            modal_name.innerHTML = modal_content[i][0] || "";
-            modal_left.innerHTML = modal_content[i][1] || "";
-            date.innerHTML = "Date: " + modal_content[i][2];
-            link.innerHTML = modal_content[i][3];
-            link.href = modal_content[i][4]
-            modal_right_bottom.innerHTML = modal_content[i][5] || "";
-            modal.style.display = "block";
-        }
-    });
-
-    span.onclick = function() {
-        modal.style.display = "none";
-    }
-
-    navbar.onclick = function() {
-        modal.style.display = "none";
-    }
-
-    window.onclick = function(event) {
-        if (event.target === modal) {
-            modal.style.display = "none";
-        }
-    }
-
-</script>
+<script src="js/modal.js"></script>
 
 </body>
 </html>
