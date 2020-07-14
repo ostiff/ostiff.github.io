@@ -54,7 +54,7 @@ const modal_content = [
         "February 2020 - March 2020",
         "Repo currently private (Coming soon)",
         "",
-        "picture"
+        "<img alt=\"image\" layout=\"responsive\" src=\"assets/images/blue.png\" class='modal-image'>"
     ],
     [
         "Self monitoring and watering plant-pot",
@@ -137,7 +137,7 @@ const modal_content = [
         "2015 - 2016",
         "Website (French)",
         "https://2016tpe.wixsite.com/tpe1",
-        "<img alt=\"image\" layout=\"responsive\" src=\"assets/images/distillation.webp\" class='modal-image'>"
+        "<img alt=\"image\" layout=\"responsive\" src=\"assets/images/distillation.png\" class='modal-image'>"
     ],
 ]
 
