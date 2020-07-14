@@ -33,14 +33,15 @@ const modal_content = [
     ],
     [
         "Undergraduate Teaching Assistant",
-        "<p class=\"mbr-fonts-style align-center display-7 mbr-pt-4\"> " +
+        "<p class=\"mbr-fonts-style align-center display-7 mbr-pt-4\" style='margin-top: 0; padding-top: 0'> " +
         "I spent one year as a teaching assistant for the 'Programming for Engineers' module in the Electrical and " +
         "Electronic Engineering department. The module focuses on procedural and object-oriented programming in C++." +
         " It helps students understand key programming concepts as well as how to use the command line and virtual" +
         "machines." +
         "</p>" +
-        "<p class=\"mbr-fonts-style align-center display-7 mbr-pt-4\">" +
-        "It allowed me to....." +
+        "<p class=\"mbr-fonts-style align-center display-7 mbr-pt-4\" style='margin-bottom: 0; padding-bottom: 0'> " +
+        "Being a teaching assistant allowed me to further improve my own understanding of some notions and to learn " +
+        "some entirely new skills." +
         "</p>",
         "October 2019 - March 2020",
         "N/A",
@@ -51,7 +52,7 @@ const modal_content = [
         "Functional programming language",
         "general stuff",
         "February 2020 - March 2020",
-        "N/A",
+        "Repo currently private (Coming soon)",
         "",
         "picture"
     ],
@@ -66,9 +67,17 @@ const modal_content = [
     ,
     [
         "MIPS CPU Simulator (C++)",
-        "general stuff",
+        "<p class=\"mbr-fonts-style align-center display-7 mbr-pt-4\" style='margin-top: 0; padding-top: 0'> " +
+        "As part of a team of two, we implemented a CPU simulator based on the MIPS I instruction set architecture " +
+        "(ISA). The simulator took as input MIPS I binaries and executed them, returning a result in the designated " +
+        "registers. Over 50 CPU instructions were supported, including both ALU and memory oriented ones. " +
+        "</p>" +
+        "<p class=\"mbr-fonts-style align-center display-7 mbr-pt-4\" style='margin-bottom: 0; padding-bottom: 0'> " +
+        "We also developed a extensive test suite designed to demonstrate functionality and identify bugs during " +
+        "development." +
+        "</p>",
         "October 2018 - November 2018",
-        "N/A",
+        "Repo currently private (Coming soon)",
         "",
         "picture"
     ],
@@ -76,13 +85,19 @@ const modal_content = [
         "C89 to MIPS compiler (C++)",
         "general stuff",
         "February 2019 - March 2019",
-        "N/A",
+        "Repo currently private (Coming soon)",
         "",
         "picture"
     ],
     [
         "Real time face detection on an FPGA",
-        "general stuff",
+        "<p class=\"mbr-fonts-style align-center display-7 mbr-pt-4\" style='margin-top: 0; padding-top: 0'>" +
+        "As part of a team of three, ..." +
+        "</p>" +
+        "<p class=\"mbr-fonts-style align-center display-7 mbr-pt-4\"> " +
+        "</p>" +
+        "<p class=\"mbr-fonts-style align-center display-7 mbr-pt-4\" style='margin-bottom: 0; padding-bottom: 0'> " +
+        "</p>",
         "March 2018 - May 2018",
         "N/A",
         "",
