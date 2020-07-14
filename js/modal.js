@@ -12,7 +12,7 @@ const modal_content = [
     [
         "Hardware graphics intern (Imgtec)",
         "<p class=\"mbr-fonts-style align-center display-7 mbr-pt-4\"> " +
-        "I am currently an intern at Imagination Technologies (Main office) working in there Hardware graphics " +
+        "I am currently an intern at Imagination Technologies (Main office) working in their Hardware graphics " +
         "team." +
         "</p>" +
         "<p class=\"mbr-fonts-style align-center display-7 mbr-pt-4\">" +
@@ -63,34 +63,49 @@ const modal_content = [
         "Github - contains link to marketing website",
         "https://github.com/tobhil98/PlantCareSystem-IoTDevice",
         "picture"
-    ]
-    ,
+    ],
+    [
+        "C89 to MIPS compiler (C++)",
+        "<p class=\"mbr-fonts-style align-center display-7 mbr-pt-4\" style='margin-top: 0; padding-top: 0'> " +
+        "As part of a team of two, I implemented a C to MIPS assembly compiler. The compiler took in C (89) code " +
+        "which was lexed and parsed to produce an Abstract Syntax Tree (AST). The AST was then used to" +
+        " generate the MIPS assembly code. This same AST was also used to generate Python code equivalent to the " +
+        "C code, acting as a C to Python translator." +
+        "</p>" +
+        "<p class=\"mbr-fonts-style align-center display-7 mbr-pt-4\"> " +
+        "The language constructs supported by the compiler and translator are detailed in the repository Readme." +
+        "</p>" +
+        "<p class=\"mbr-fonts-style align-center display-7 mbr-pt-4\" style='margin-bottom: 0; padding-bottom: 0'>" +
+        "The compiler/translator was written using Lex for the lexer, Yacc for the parser and C++ from there onwards. " +
+        "The was written in Bash." +
+        "</p>",
+        "February 2019 - March 2019",
+        "Repo currently private (Coming soon)",
+        "",
+        "<img alt=\"image\" layout=\"responsive\" src=\"assets/images/compiler_languages.png\" class='modal-image'>"
+    ],
     [
         "MIPS CPU Simulator (C++)",
         "<p class=\"mbr-fonts-style align-center display-7 mbr-pt-4\" style='margin-top: 0; padding-top: 0'> " +
-        "As part of a team of two, we implemented a CPU simulator based on the MIPS I instruction set architecture " +
+        "As part of a team of two, I implemented a CPU simulator based on the MIPS I instruction set architecture " +
         "(ISA). The simulator took as input MIPS I binaries and executed them, returning a result in the designated " +
         "registers. Over 50 CPU instructions were supported, including both ALU and memory oriented ones. " +
         "</p>" +
-        "<p class=\"mbr-fonts-style align-center display-7 mbr-pt-4\" style='margin-bottom: 0; padding-bottom: 0'> " +
+        "<p class=\"mbr-fonts-style align-center display-7 mbr-pt-4\"> " +
         "We also developed a extensive test suite designed to demonstrate functionality and identify bugs during " +
         "development." +
+        "</p>" +
+        "<p class=\"mbr-fonts-style align-center display-7 mbr-pt-4\" style='margin-bottom: 0; padding-bottom: 0'> " +
+        "The simulator was implemented using C++ and the testbench primarily relied on Bash." +
         "</p>",
         "October 2018 - November 2018",
         "Repo currently private (Coming soon)",
         "",
-        "picture"
-    ],
-    [
-        "C89 to MIPS compiler (C++)",
-        "general stuff",
-        "February 2019 - March 2019",
-        "Repo currently private (Coming soon)",
-        "",
-        "picture"
+        "<img alt=\"image\" layout=\"responsive\" src=\"assets/images/simulator_languages.png\" class='modal-image'>"
     ],
     [
         "Real time face detection on an FPGA",
+        "<h3 class=\"mbr-section-subtitle mbr-fonts-style align-center mbr-white mbr-light display-2\">1st Year Project</h3>" +
         "<p class=\"mbr-fonts-style align-center display-7 mbr-pt-4\" style='margin-top: 0; padding-top: 0'>" +
         "As part of a team of three, ..." +
         "</p>" +
@@ -101,7 +116,7 @@ const modal_content = [
         "March 2018 - May 2018",
         "N/A",
         "",
-        "picture"
+        "<img alt=\"image\" layout=\"responsive\" src=\"assets/images/face_detection.gif\" class='modal-image'>"
     ],
     [
         "Using the potato as a source of energy",

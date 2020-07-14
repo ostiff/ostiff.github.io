@@ -83,6 +83,7 @@
     border-right: 20px solid white;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .modal {
@@ -139,13 +140,13 @@
     height: 100%;
 }
 
-/*.modal-image {*/
-/*    max-width:auto;*/
-/*    max-height:100%;*/
-/*}*/
+.modal-image {
+    max-width:100%;
+    max-height:100%;
+    object-fit: contain;
+}
 
-.md-modal-right-bottom > img {
-  object-fit: cover;
-  width: 100%;
-  max-height: 100%;
+#modal-right-bottom {
+    height: 100%;
+    width: 100%;
 }
