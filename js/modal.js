@@ -11,12 +11,12 @@ const modal_right_bottom = document.getElementById("modal-right-bottom");
 const modal_content = [
     [
         "Hardware graphics intern (Imgtec)",
-        "<p class=\"mbr-fonts-style align-center display-7 mbr-pt-4\"> " +
+        "<p class=\"mbr-fonts-style align-center display-7 mbr-pt-4\" style='margin-top: 0; padding-top: 0'> " +
         "I am currently an intern at Imagination Technologies (Main office) working in their Hardware graphics " +
         "team." +
         "</p>" +
-        "<p class=\"mbr-fonts-style align-center display-7 mbr-pt-4\">" +
-        "This section will be updated once I finish my placement" +
+        "<p class=\"mbr-fonts-style align-center display-7 mbr-pt-4\" style='margin-bottom: 0; padding-bottom: 0'> " +
+        "This section will be updated once I finish my placement." +
         "</p>",
         "July 2020 - Present",
         "Imagination Technologies website",
@@ -37,7 +37,7 @@ const modal_content = [
         "I spent one year as a teaching assistant for the 'Programming for Engineers' module in the Electrical and " +
         "Electronic Engineering department. The module focuses on procedural and object-oriented programming in C++." +
         " It helps students understand key programming concepts as well as how to use the command line and virtual" +
-        "machines." +
+        " machines." +
         "</p>" +
         "<p class=\"mbr-fonts-style align-center display-7 mbr-pt-4\" style='margin-bottom: 0; padding-bottom: 0'> " +
         "Being a teaching assistant allowed me to further improve my own understanding of some notions and to learn " +
@@ -77,7 +77,7 @@ const modal_content = [
         "</p>" +
         "<p class=\"mbr-fonts-style align-center display-7 mbr-pt-4\" style='margin-bottom: 0; padding-bottom: 0'>" +
         "The compiler/translator was written using Lex for the lexer, Yacc for the parser and C++ from there onwards. " +
-        "The was written in Bash." +
+        "The testbench was written in Bash." +
         "</p>",
         "February 2019 - March 2019",
         "Repo currently private (Coming soon)",
@@ -92,7 +92,7 @@ const modal_content = [
         "registers. Over 50 CPU instructions were supported, including both ALU and memory oriented ones. " +
         "</p>" +
         "<p class=\"mbr-fonts-style align-center display-7 mbr-pt-4\"> " +
-        "We also developed a extensive test suite designed to demonstrate functionality and identify bugs during " +
+        "We also developed an extensive test suite designed to demonstrate functionality and identify bugs during " +
         "development." +
         "</p>" +
         "<p class=\"mbr-fonts-style align-center display-7 mbr-pt-4\" style='margin-bottom: 0; padding-bottom: 0'> " +
