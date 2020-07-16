@@ -25,7 +25,22 @@ const modal_content = [
     ],
     [
         "COVID-19 Visualistion platform",
-        "general stuff",
+        "<p class=\"mbr-fonts-style align-center display-7 mbr-pt-4\" style='margin-top: 0; padding-top: 0'> " +
+        "For my third-year project, I created a COVID-19 diagnostic tracking platform. This was designed to interface" +
+        " with a diagnostic device created by a team in the Centre for Bio-Inspired Technology at Imperial College" +
+        " London. The platform, which is centred around an interactive map, allows users to access information from " +
+        "countrywide to postcode level scales. Diagnostic statistics and demographics are generated client-side based" +
+        " on the selected region. Authenticated clinicians can also access patient-specific information and detailed" +
+        " results for individual diagnostic tests." +
+        "</p>" +
+        "<p class=\"mbr-fonts-style align-center display-7 mbr-pt-4\"> " +
+        "A REST API was created to query information from the server and to upload data using the dedicated upload" +
+        " page or administrator interface." +
+        "</p>" +
+        "<p class=\"mbr-fonts-style align-center display-7 mbr-pt-4\" style='margin-bottom: 0; padding-bottom: 0'> " +
+        "The backend for the platform was implemented in Python using Django. The frontend used JavaScript, HTML " +
+        "and CSS. The platform was deployed to Heroku using a Spatial Postgres database (PostGIS)." +
+        "</p>",
         "April 2020 - June 2020",
         "Documentation",
         "https://protondx-documentation.herokuapp.com/",
@@ -58,7 +73,21 @@ const modal_content = [
     ],
     [
         "Self monitoring and watering plant-pot",
-        "general stuff",
+        "<p class=\"mbr-fonts-style align-center display-7 mbr-pt-4\" style='margin-top: 0; padding-top: 0'> " +
+        "As part of a team of three, I created a self-monitoring and watering plant-pot. It monitored air " +
+        "temperature and humidity as well as soil moisture to determine when to water the plant. A small pump and " +
+        "reservoir were used to dispense water when needed. The sensors and pump were connected to a Raspberry Pi." +
+        " Sensor readings and watering information were passed on to the database where they were processed to be " +
+        "displayed in an app. The app was used to adjust watering settings and monitor plant health or historical " +
+        "data" +
+        "</p>" +
+        "<p class=\"mbr-fonts-style align-center display-7 mbr-pt-4\"> " +
+        "We also added Amazon Alexa support to get basic information or water the plant (e.g. “Alexa, ask my plant " +
+        "when it was last watered”)." +
+        "</p>" +
+        "<p class=\"mbr-fonts-style align-center display-7 mbr-pt-4\" style='margin-bottom: 0; padding-bottom: 0'> " +
+        "Most of the code was implemented in Python with Microsoft PowerApps being used for the app." +
+        "</p>",
         "January 2020 - February 2020",
         "Github - contains link to marketing website",
         "https://github.com/tobhil98/PlantCareSystem-IoTDevice",
