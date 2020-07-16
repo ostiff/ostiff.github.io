@@ -166,7 +166,7 @@ const modal_content = [
         "2015 - 2016",
         "Website (French)",
         "https://2016tpe.wixsite.com/tpe1",
-        "<img alt=\"image\" layout=\"responsive\" src=\"assets/images/distillation.png\" class='modal-image'>"
+        "<img alt=\"image\" layout=\"responsive\" src=\"assets/images/tpe.jpg\" class='modal-image'>"
     ],
 ]
 
