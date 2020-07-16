@@ -91,7 +91,7 @@ const modal_content = [
         "January 2020 - February 2020",
         "Github - contains link to marketing website",
         "https://github.com/tobhil98/PlantCareSystem-IoTDevice",
-        "picture"
+        "<img alt=\"image\" layout=\"responsive\" src=\"assets/images/plant-pot.jpg\" class='modal-image'>"
     ],
     [
         "C89 to MIPS compiler (C++)",
@@ -134,13 +134,23 @@ const modal_content = [
     ],
     [
         "Real time face detection on an FPGA",
-        "<h3 class=\"mbr-section-subtitle mbr-fonts-style align-center mbr-white mbr-light display-2\">1st Year Project</h3>" +
+        "<h3 class=\"mbr-section-subtitle mbr-fonts-style align-center mbr-white mbr-light display-2\">" +
+        "1st Year Project" +
+        "</h3>" +
+        "<br>" +
         "<p class=\"mbr-fonts-style align-center display-7 mbr-pt-4\" style='margin-top: 0; padding-top: 0'>" +
-        "As part of a team of three, ..." +
+        "A group of three of us designed and then implemented a face detection algorithm on a Field Programmable" +
+        " Gate array (FPGA). The code was written in C and High-Level Synthesis was used to obtain the digital" +
+        " hardware description used to program the FPGA." +
         "</p>" +
         "<p class=\"mbr-fonts-style align-center display-7 mbr-pt-4\"> " +
+        "The face detection was real-time, albeit at a low framerate, and mainly relied on skin-colour segmentation." +
+        " The algorithm identified groups of nearby pixels which met the colour and hue requirements and looked at " +
+        "the shape of each group to determine if it was likely to be a face." +
+
         "</p>" +
         "<p class=\"mbr-fonts-style align-center display-7 mbr-pt-4\" style='margin-bottom: 0; padding-bottom: 0'> " +
+        "The project also allowed me to develop my teamworking skills and my ability to deal with time constraints." +
         "</p>",
         "March 2018 - May 2018",
         "N/A",
