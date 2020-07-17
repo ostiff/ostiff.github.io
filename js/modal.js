@@ -64,8 +64,9 @@ const modal_content = [
         "<img alt=\"image\" layout=\"responsive\" src=\"assets/images/IMP_ML_W_N_CLEAR-SPACE.png\" class='modal-image'>"
     ],
     [
-        "Functional programming language",
-        "general stuff",
+        "Functional programming language and interpreter",
+        "I worked on a runtime which took as input the output of the parser (a token list) and evaluated it to obtain" +
+        "the ouptu of the program where possible. I used SKI combinator reduction ",
         "February 2020 - March 2020",
         "Repo currently private (Coming soon)",
         "",
