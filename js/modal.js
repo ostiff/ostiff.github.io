@@ -65,8 +65,16 @@ const modal_content = [
     ],
     [
         "Functional programming language and interpreter",
-        "I worked on a runtime which took as input the output of the parser (a token list) and evaluated it to obtain" +
-        "the ouptu of the program where possible. I used SKI combinator reduction ",
+        "<p class=\"mbr-fonts-style align-center display-7 mbr-pt-4\" style='margin-top: 0; padding-top: 0'> " +
+
+        "</p>" +
+        "<p class=\"mbr-fonts-style align-center display-7 mbr-pt-4\">" +
+        "I worked on a runtime which took as input the output of the parser (a token list) and evaluated it. I used " +
+        "<a href='https://en.wikipedia.org/wiki/SKI_combinator_calculus' target='_blank'>SKI combinator calculus</a> " +
+        "</p>" +
+        "<p class=\"mbr-fonts-style align-center display-7 mbr-pt-4\" style='margin-bottom: 0; padding-bottom: 0'> " +
+        "" +
+        "</p>",
         "February 2020 - March 2020",
         "Repo currently private (Coming soon)",
         "",
