@@ -10,7 +10,7 @@ const modal_right_bottom = document.getElementById("modal-right-bottom");
 
 const modal_content = [
     [
-        "Hardware graphics intern (Imgtec)",
+        "Hardware graphics intern at Imagination Technologies",
         "<p class=\"mbr-fonts-style align-center display-7 mbr-pt-4\" style='margin-top: 0; padding-top: 0'> " +
         "I am currently an intern at Imagination Technologies (Main office) working in their Hardware graphics " +
         "team." +
@@ -65,15 +65,20 @@ const modal_content = [
     ],
     [
         "Functional programming language and interpreter",
-        "<p class=\"mbr-fonts-style align-center display-7 mbr-pt-4\" style='margin-top: 0; padding-top: 0'> " +
-
+        "<p class=\"mbr-fonts-style align-center display-7 mbr-pt-4\" style='margin-top: 0; padding-top: 0'>" +
+        "As a team of four, we designed our own functional programming language called Blue. We wrote an interpreter" +
+        " for our language which consisted of a lexer, parser and runtimes. We also created an IDE built upon a " +
+        "pre-existing project. " +
         "</p>" +
         "<p class=\"mbr-fonts-style align-center display-7 mbr-pt-4\">" +
         "I worked on a runtime which took as input the output of the parser (a token list) and evaluated it. I used " +
         "<a href='https://en.wikipedia.org/wiki/SKI_combinator_calculus' target='_blank'>SKI combinator calculus</a> " +
+        "to reduce the incoming expressions. Built-in functions such as 'Add' and 'Map' were also evaluated to " +
+        "produce either a literal or a reduced expression. I also worked on the visual interface for the IDE." +
         "</p>" +
         "<p class=\"mbr-fonts-style align-center display-7 mbr-pt-4\" style='margin-bottom: 0; padding-bottom: 0'> " +
-        "" +
+        "The project was predominantly writen in F#. Some HTML and CSS was used for the visual interface and some " +
+        "demonstration code, including a lexer, was written in our language." +
         "</p>",
         "February 2020 - March 2020",
         "Repo currently private (Coming soon)",
