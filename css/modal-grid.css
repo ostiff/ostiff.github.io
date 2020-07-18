@@ -170,11 +170,16 @@
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
     .md-modal-body {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
         grid-template-areas: "md-modal-left" "md-modal-right";
+    }
+
+    .modal-content {
+        width: 95%;
+        height: 80%;
     }
 
     .md-modal-right-top,
