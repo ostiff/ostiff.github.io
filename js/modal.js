@@ -12,13 +12,16 @@ const modal_content = [
     [
         "Hardware graphics intern at Imagination Technologies",
         "<p class=\"mbr-fonts-style align-center display-7 mbr-pt-4\" style='margin-top: 0; padding-top: 0'> " +
-        "I am currently an intern at Imagination Technologies (Main office) working in their Hardware graphics " +
-        "team." +
+        "From July to September 2020, I worked as an intern in Imagination Technologies’ Unified Shading" +
+        " Cluster (USC) team in their hardware graphics division." +
+        "</p>" +
+        "<p class=\"mbr-fonts-style align-center display-7 mbr-pt-4\"> " +
+        "" +
         "</p>" +
         "<p class=\"mbr-fonts-style align-center display-7 mbr-pt-4\" style='margin-bottom: 0; padding-bottom: 0'> " +
-        "This section will be updated once I finish my placement." +
+        "" +
         "</p>",
-        "July 2020 - Present",
+        "July 2020 - September 2020",
         "Imagination Technologies website",
         "https://www.imgtec.com/",
         "<img alt=\"image\" layout=\"responsive\" src=\"assets/images/2020-logo-stacked-2.png\" class='modal-image'>"
