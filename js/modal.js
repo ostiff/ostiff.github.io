@@ -16,10 +16,15 @@ const modal_content = [
         " Cluster (USC) team in their hardware graphics division." +
         "</p>" +
         "<p class=\"mbr-fonts-style align-center display-7 mbr-pt-4\"> " +
-        "" +
+        "During my time there, I created a script designed to automatically query an internal database for drivers " +
+        "required to run a program. I then used those drivers and a series of suitable arguments to run the program. " +
+        "The script reduced workflow complexity and is now being used by team members." +
         "</p>" +
         "<p class=\"mbr-fonts-style align-center display-7 mbr-pt-4\" style='margin-bottom: 0; padding-bottom: 0'> " +
-        "" +
+        "I also participated in the conversion of VHDL code to Verilog. I had to verify converted code adhered to " +
+        "company guidelines and was formally equivalent to original code. I also identified and catalogued bugs in " +
+        "the conversion workflow, enabling  quick fixes by the relevant teams. Finally, I produced a detailed " +
+        "walkthrough guide targeted at people joining the project." +
         "</p>",
         "July 2020 - September 2020",
         "Imagination Technologies website",
