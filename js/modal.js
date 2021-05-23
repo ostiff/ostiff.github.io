@@ -112,7 +112,7 @@ const modal_content = [
         "</p>",
         "January 2020 - February 2020",
         "Github - contains link to marketing website",
-        "https://github.com/tobhil98/PlantCareSystem-IoTDevice",
+        "https://github.com/ostiff/PlantCareSystem-IoTDevice",
         "<img alt=\"image\" layout=\"responsive\" src=\"assets/images/plant-pot.jpg\" class='modal-image'>"
     ],
     [
@@ -131,8 +131,8 @@ const modal_content = [
         "The testbench was written in Bash." +
         "</p>",
         "February 2019 - March 2019",
-        "Repo currently private (Coming soon)",
-        "",
+        "Github repo",
+        "https://github.com/ostiff/c89-mips-compiler",
         "<img alt=\"image\" layout=\"responsive\" src=\"assets/images/compiler_languages.png\" class='modal-image'>"
     ],
     [
@@ -150,8 +150,8 @@ const modal_content = [
         "The simulator was implemented using C++ and the testbench primarily relied on Bash." +
         "</p>",
         "October 2018 - November 2018",
-        "Repo currently private (Coming soon)",
-        "",
+        "Github repo",
+        "https://github.com/ostiff/mips1-simulator",
         "<img alt=\"image\" layout=\"responsive\" src=\"assets/images/simulator_languages.png\" class='modal-image'>"
     ],
     [
